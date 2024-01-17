@@ -1,0 +1,27 @@
+.profile {
+    width: 100%; /* Takes 100% of the container width */
+    object-fit: cover;
+    object-position: bottom; /* Adjust the object position to crop the top part */
+    border-radius: 50%;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: flex-end;
+}
+
+.navigation {
+    margin: 30px;
+}
+
+.main-content {
+    margin: 25px;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}

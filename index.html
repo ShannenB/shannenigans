@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <!-- Add this before the closing </body> tag -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <!-- Add this before the closing </body> tag -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <!-- Add this before the closing </body> tag -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script>
+        $(function () {
+            $('#home').tab('show')
+        })
+    </script>
+
+    <div class="container">
+        <div class="row">
+            <div class="nav flex-column nav-pills col-2 navigation" id="v-pills-tab" role="tablist"
+                aria-orientation="vertical">
+                <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab"
+                    aria-controls="v-pills-home" aria-selected="true">Home</a>
+                <a class="nav-link" id="v-pills-aboutme-tab" data-toggle="pill" href="#v-pills-aboutme" role="tab"
+                    aria-controls="v-pills-aboutme" aria-selected="false">About me</a>
+            </div>
+            <div class="col main-content">
+                <div class="tab-content " id="v-pills-tabContent">
+                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                        aria-labelledby="v-pills-home-tab">
+                        <h1>Shannen Barrameda</h1>
+                        <p>Hi, I'm Shannen. I'm currently a <b>SWE @ Microsoft</b>, where I work on all things
+                            related
+                            to
+                            sharing!</p>
+                        <p>I am passionate about web development and primarily work in TypeScript and React. At
+                            Microsoft, I
+                            work on all sorts of flows related to sharing to your favorite apps like Outlook &
+                            Teams as
+                            well
+                            as managing permissions.</p>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-aboutme" role="tabpanel"
+                        aria-labelledby="v-pills-aboutme-tab">
+                        <p>I'm passionate about web development and primarily work with TypeScript and React. My
+                            role at
+                            Microsoft involves creating seamless experiences for users by enabling easy sharing
+                            across
+                            various applications, including popular tools like Outlook and Teams. I also handle
+                            permission
+                            management to ensure secure and efficient collaboration.</p>
+                        <p>In addition to web development, I'm fascinated by language technologies and their
+                            impact on
+                            human-computer interactions. Exploring natural language processing and machine
+                            learning has
+                            been
+                            an exciting journey, and I'm eager to push boundaries in this field.</p>
+                        <p>I also have a keen interest in project management. Combining technical expertise with
+                            project
+                            management skills allows me to bring valuable insights and ensure smooth
+                            collaboration
+                            within
+                            teams.</p>
+                        <p>In addition to my technical pursuits, I find joy in staying active and moving my
+                            body. I have
+                            a
+                            special love for powerlifting and I'm also an avid dancer, finding self-expression
+                            through
+                            the
+                            art of movement.</p>
+                        <p>Thank you for visiting my portfolio! Feel free to explore my projects and get to know
+                            me
+                            beyond
+                            the world of programming.</p>
+                    </div>
+                </div>
+
+            </div>
+            <footer class="footer">
+                &copy; 2024 My Portfolio
+            </footer>
+</body>
+
+</html>
